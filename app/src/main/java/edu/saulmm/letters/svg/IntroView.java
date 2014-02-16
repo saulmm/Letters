@@ -9,6 +9,7 @@ import android.graphics.Paint;
 import android.graphics.PathEffect;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.View;
 
 import java.util.ArrayList;
@@ -21,13 +22,12 @@ import static android.util.Log.e;
 
 @SuppressWarnings({"ForLoopReplaceableByForEach", "UnusedDeclaration"})
 public class IntroView extends View {
-    private static final String LOG_TAG = "IntroView";
 
     private final Paint mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-
     private final SvgHelper mSvg = new SvgHelper(mPaint);
+
     private boolean mShouldStart = false;
-    private int mSvgResource = R.raw.logo;
+    private int mSvgResource = R.raw.a;
 
     private final Object mSvgLock = new Object();
     private List<SvgHelper.SvgPath> mPaths = new ArrayList<SvgHelper.SvgPath>(0);
@@ -35,6 +35,7 @@ public class IntroView extends View {
 
     private SvgHelper.SvgPath mWaitPath;
     private SvgHelper.SvgPath mDragPath;
+
     private Paint mArrowPaint;
     private int mArrowLength;
     private int mArrowHeight;
@@ -49,13 +50,21 @@ public class IntroView extends View {
 
     private ObjectAnimator mSvgAnimator;
     private ObjectAnimator mWaitAnimator;
-	private int h, w;
+
+	private int height, width;
 
 
 	public IntroView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
+
+    /**
+     * Constructor that manages the styleable attributes defined in attrs.xml and configured in the xml
+     * @param context
+     * @param attrs
+     * @param defStyle
+     */
     public IntroView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
@@ -81,23 +90,25 @@ public class IntroView extends View {
         }
 
 	    DisplayMetrics metrics = context.getResources().getDisplayMetrics();
-	    w = metrics.widthPixels;
-	    h = metrics.heightPixels;
+	    width = metrics.widthPixels;
+	    height = metrics.heightPixels;
 
-        init();
-        totalPaths = 0;
-        start(w, h);
+
+        if(mShouldStart) {
+            init();
+            totalPaths = 0;
+            start(width, height);
+        }
     }
 
     
 	private void init() {
         mPaint.setStyle(Paint.Style.STROKE);
-
         setLayerType(LAYER_TYPE_SOFTWARE, null);
 
         mSvgAnimator = ObjectAnimator.ofFloat(
-		        this, "phase", mPhase, 0.0f)
-		        .setDuration(mDuration);
+            this, "phase", mPhase, 0.0f)
+            .setDuration(mDuration);
     }
 
 
@@ -139,11 +150,12 @@ public class IntroView extends View {
                 SvgHelper.SvgPath svgPath = mPaths.get(i);
 		        totalPaths += i;
 
-		        d("[DEBUG] org.curiouscreature.android.roadtrip.IntroView.onDraw ",
-				        "Current path: " + i+" Total paths: "+totalPaths);
-		        // We use the fade factor to speed up the alpha animation
-//		        int alpha = (int) (Math.min((1.0f - mPhase) * mFadeFactor, 1.0f) * 255.0f);
-//		        svgPath.paint.setAlpha(alpha);
+
+
+
+//		        We use the fade factor to speed up the alpha animation
+		        int alpha = (int) (Math.min((1.0f - mPhase) * mFadeFactor, 1.0f) * 255.0f);
+		        svgPath.paint.setAlpha(alpha);
 
                 canvas.drawPath(svgPath.path, svgPath.paint);
 
@@ -164,16 +176,18 @@ public class IntroView extends View {
 
 	public void startSvgAnimation () {
 		totalPaths = 0;
-		start(w, h);
+		start(width, height);
 	}
 
 
 	private void start (final int w, final int h) {
 		if (mLoader != null) {
-			try {
+
+            try {
 				mLoader.join();
-			} catch (InterruptedException e) {
-				e(LOG_TAG, "Unexpected error", e);
+
+            } catch (InterruptedException ignored) {
+
 			}
 		}
 
@@ -181,12 +195,17 @@ public class IntroView extends View {
 			@Override
 			public void run() {
 				mSvg.load(getContext(), mSvgResource);
+                Log.d("[DEBUG]", "edu.saulmm.letters.svg.IntroView - run" +
+                        "\n[The height of the resource is: ]" +mSvg.getHeight());
+
+                int svgHeght = (int) mSvg.getHeight();
 
 				synchronized (mSvgLock) {
 					mPaths = mSvg.getPathsForViewport(
 							w - getPaddingLeft() - getPaddingRight(),
-							h - getPaddingTop() - getPaddingBottom());
-					updatePathsPhaseLocked();
+							h - getPaddingTop() - getPaddingBottom() - (svgHeght / 2));
+
+                    updatePathsPhaseLocked();
 				}
 
 

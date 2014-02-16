@@ -3,9 +3,6 @@
     xmlns:r="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="edu.saulmm.letters.MainActivity$PlaceholderFragment">
 
     <edu.saulmm.letters.svg.IntroView
@@ -13,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:background="@android:color/holo_red_dark"
+
         r:phase="1.0"
         r:duration="2500"
         r:fadeFactor="10.0"
@@ -22,7 +19,7 @@
         r:arrowHeight="0dp"
         r:strokeWidth="4.0"
         r:shouldStart="true"
-        r:strokeColor="#ffffffff"/>
+        r:strokeColor="@android:color/holo_blue_dark"/>
 
 
     <edu.saulmm.letters.views.LetterBar
@@ -32,10 +29,5 @@
 
     </edu.saulmm.letters.views.LetterBar>
 
-    <Button
-        android:id="@+id/test_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Test button"/>
 
 </RelativeLayout>

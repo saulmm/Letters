@@ -41,15 +41,6 @@ public class MainActivity extends ActionBarActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            Button testButton = (Button) rootView.findViewById(R.id.test_button);
-            final IntroView introView = (IntroView) rootView.findViewById(R.id.intro);
-
-            testButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    introView.startSvgAnimation();
-                }
-            });
 
 
 

@@ -75,6 +75,18 @@ public class SvgHelper {
         }
     }
 
+
+    public float getHeight() {
+        float outputHeight = -1;
+
+        if (mSvg != null) {
+            outputHeight = mSvg.getDocumentHeight();
+        }
+
+        return outputHeight;
+    }
+
+
     public List<SvgPath> getPathsForViewport(final int width, final int height) {
         mPaths.clear();
 
