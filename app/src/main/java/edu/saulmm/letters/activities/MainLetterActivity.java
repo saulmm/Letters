@@ -4,7 +4,9 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import edu.saulmm.letters.R;
+import edu.saulmm.letters.views.viewpager.DepthPageTransformer;
 import edu.saulmm.letters.views.viewpager.LetterAdapter;
+
 
 
 public class MainLetterActivity extends FragmentActivity {
@@ -22,5 +24,6 @@ public class MainLetterActivity extends FragmentActivity {
         mAdapter = new LetterAdapter(getSupportFragmentManager());
         mPager = (ViewPager)findViewById(R.id.pager);
         mPager.setAdapter(mAdapter);
+        mPager.setPageTransformer(true, new DepthPageTransformer());
     }
 }
