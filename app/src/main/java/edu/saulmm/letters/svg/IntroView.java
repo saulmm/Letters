@@ -17,8 +17,7 @@ import java.util.List;
 
 import edu.saulmm.letters.R;
 
-import static android.util.Log.d;
-import static android.util.Log.e;
+
 
 @SuppressWarnings({"ForLoopReplaceableByForEach", "UnusedDeclaration"})
 public class IntroView extends View {
@@ -161,8 +160,7 @@ public class IntroView extends View {
 
             }
 
-	        d("[DEBUG] org.curiouscreature.android.roadtrip.IntroView.onDraw ",
-			        "\n\n");
+
 
             canvas.restore();
 
@@ -195,8 +193,6 @@ public class IntroView extends View {
 			@Override
 			public void run() {
 				mSvg.load(getContext(), mSvgResource);
-                Log.d("[DEBUG]", "edu.saulmm.letters.svg.IntroView - run" +
-                        "\n[The height of the resource is: ]" +mSvg.getHeight());
 
                 int svgHeght = (int) mSvg.getHeight();
 
