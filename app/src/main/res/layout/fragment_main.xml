@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:r="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.saulmm.letters.MainActivity$PlaceholderFragment">
+
+    <edu.saulmm.letters.svg.IntroView
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_red_dark"
+        r:phase="1.0"
+        r:duration="2500"
+        r:fadeFactor="10.0"
+        r:waitRadius="0dp"
+        r:arrowLength="0dp"
+        r:arrowHeight="0dp"
+        r:strokeWidth="4.0"
+        r:shouldStart="true"
+        r:strokeColor="#ffffffff"/>
+
+
+    <edu.saulmm.letters.views.LetterBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </edu.saulmm.letters.views.LetterBar>
+
+    <Button
+        android:id="@+id/test_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test button"/>
+
+</RelativeLayout>
