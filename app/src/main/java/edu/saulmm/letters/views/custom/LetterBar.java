@@ -51,8 +51,6 @@ public class LetterBar extends LinearLayout {
 
         for (int i = 0; i < LETTERS.length(); i++) {
             letter = LETTERS.charAt(i);
-            Log.d("[DEBUG]", "edu.saulmm.letters.views.LetterBar - init" +
-                    "\n"+ letter);
 
             TextView b = new TextView(this.context);
 

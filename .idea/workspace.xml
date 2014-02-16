@@ -88,7 +88,7 @@
       <file leaf-file-name="fragment_pager.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pager.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="493" selection-end="493" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="300">
+            <state line="12" column="17" selection-start="493" selection-end="493" vertical-scroll-proportion="-0.0" vertical-offset="180" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -100,10 +100,8 @@
       <file leaf-file-name="fragment_pager_list.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pager_list.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="16" selection-start="704" selection-end="704" vertical-scroll-proportion="-8.888889" vertical-offset="0" max-vertical-offset="645">
-              <folding>
-                <element signature="e#555#576#0" expanded="true" />
-              </folding>
+            <state line="16" column="16" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="645">
+              <folding />
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -111,23 +109,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainLetterActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainLetterActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/activities/MainLetterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="31" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="960">
+            <state line="25" column="1" selection-start="723" selection-end="723" vertical-scroll-proportion="0.5311615" vertical-offset="0" max-vertical-offset="706">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file leaf-file-name="LetterAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/viewpager/LetterAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="47" selection-start="86" selection-end="86" vertical-scroll-proportion="0.02124646" vertical-offset="0" max-vertical-offset="706">
-              <folding />
+            <state line="22" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +134,7 @@
       <file leaf-file-name="fragment_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="328" selection-end="335" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="600">
+            <state line="6" column="17" selection-start="328" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -153,15 +152,6 @@
           </provider>
           <provider editor-type-id="android-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SvgHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/svg/SvgHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="20" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -834,7 +824,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/LetterBar.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/svg/SvgHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" />
@@ -845,8 +834,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/FragmentStateSupport.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/MainLetterActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/activities/MainLetterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/LetterBar.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/fragments/LetterFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/viewpager/LetterAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/activities/MainLetterActivity.java" />
       </list>
     </option>
   </component>
@@ -881,6 +873,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1084,6 +1078,48 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="viewpager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Letters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lette" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1149,6 +1185,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Letters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lette" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="activities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1173,8 +1243,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1238,6 +1306,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1263,19 +1344,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1406,7 +1474,6 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1421,8 +1488,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16881259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16881259" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3298153" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1442,6 +1510,64 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pager.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pager_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/activities/MainLetterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="39" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="960">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="328" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/svg/SvgHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="20" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="2070">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/svg/IntroView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="203" column="68" selection-start="5450" selection-end="5450" vertical-scroll-proportion="0.0" vertical-offset="3045" max-vertical-offset="4080">
@@ -1460,13 +1586,6 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/LetterBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1155">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/svg/IntroView.java">
@@ -1499,7 +1618,9 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/svg/SvgHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="43" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1890">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1527,13 +1648,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/LetterBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/svg/IntroView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="178" column="35" selection-start="4918" selection-end="4918" vertical-scroll-proportion="0.0" vertical-offset="2670" max-vertical-offset="4035">
@@ -1564,7 +1678,9 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/svg/SvgHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="43" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1890">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1592,13 +1708,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/LetterBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
@@ -1616,13 +1725,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/raw/logo.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="46" selection-start="921" selection-end="921" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/LetterBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.5750708" vertical-offset="299" max-vertical-offset="1005">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
@@ -1648,8 +1750,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/svg/SvgHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
-          <folding />
+        <state line="28" column="24" selection-start="924" selection-end="924" vertical-scroll-proportion="0.28767124" vertical-offset="0" max-vertical-offset="1800">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1663,6 +1767,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pager_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="704" selection-end="704" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="328" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pager.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="11" selection-start="701" selection-end="701" vertical-scroll-proportion="0.4036827" vertical-offset="0" max-vertical-offset="706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="-7.7777777" vertical-offset="0" max-vertical-offset="330">
@@ -1673,52 +1814,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pager_list.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/fragments/LetterFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="704" selection-end="704" vertical-scroll-proportion="-8.888889" vertical-offset="0" max-vertical-offset="645">
+        <state line="15" column="13" selection-start="329" selection-end="329" vertical-scroll-proportion="0.30821916" vertical-offset="0" max-vertical-offset="730">
           <folding>
-            <element signature="e#555#576#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/custom/LetterBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="328" selection-end="335" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="600">
+        <state line="43" column="49" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.67808217" vertical-offset="0" max-vertical-offset="975">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_pager.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/views/viewpager/LetterAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="493" selection-end="493" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="300">
-          <folding />
+        <state line="22" column="0" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/edu/saulmm/letters/activities/MainLetterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="31" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="960">
+        <state line="25" column="1" selection-start="723" selection-end="723" vertical-scroll-proportion="0.5311615" vertical-offset="0" max-vertical-offset="706">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="47" selection-start="86" selection-end="86" vertical-scroll-proportion="0.02124646" vertical-offset="0" max-vertical-offset="706">
-          <folding />
         </state>
       </provider>
     </entry>
