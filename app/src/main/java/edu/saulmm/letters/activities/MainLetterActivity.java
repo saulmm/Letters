@@ -3,6 +3,8 @@ package edu.saulmm.letters.activities;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
+import android.view.Window;
+
 import edu.saulmm.letters.R;
 import edu.saulmm.letters.views.viewpager.DepthPageTransformer;
 import edu.saulmm.letters.views.viewpager.LetterAdapter;
@@ -19,6 +21,10 @@ public class MainLetterActivity extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        getWindow().requestFeature(Window.FEATURE_ACTION_BAR);
+        getActionBar().hide();
+
         setContentView(R.layout.fragment_pager);
 
         mAdapter = new LetterAdapter(getSupportFragmentManager());

@@ -3,7 +3,6 @@
     xmlns:r="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_bright"
     tools:context="edu.saulmm.letters.MainActivity.LetterFragment">
 
     <edu.saulmm.letters.svg.IntroView
@@ -19,7 +18,7 @@
         r:arrowLength="0dp"
         r:arrowHeight="0dp"
         r:strokeWidth="4.0"
-        r:shouldStart="true"
+        r:shouldStart="false"
         r:strokeColor="@android:color/holo_blue_dark"/>
 
 

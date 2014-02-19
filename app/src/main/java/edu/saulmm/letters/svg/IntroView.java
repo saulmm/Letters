@@ -26,7 +26,7 @@ public class IntroView extends View {
     private final SvgHelper mSvg = new SvgHelper(mPaint);
 
     private boolean mShouldStart = false;
-    private int mSvgResource = R.raw.a;
+    private int mSvgResource = 0;
 
     private final Object mSvgLock = new Object();
     private List<SvgHelper.SvgPath> mPaths = new ArrayList<SvgHelper.SvgPath>(0);
@@ -92,23 +92,18 @@ public class IntroView extends View {
 	    width = metrics.widthPixels;
 	    height = metrics.heightPixels;
 
-
-        if(mShouldStart) {
-            init();
-            totalPaths = 0;
-            start(width, height);
-        }
-    }
-
-    
-	private void init() {
         mPaint.setStyle(Paint.Style.STROKE);
         setLayerType(LAYER_TYPE_SOFTWARE, null);
 
         mSvgAnimator = ObjectAnimator.ofFloat(
-            this, "phase", mPhase, 0.0f)
-            .setDuration(mDuration);
+                this, "phase", mPhase, 0.0f)
+                .setDuration(mDuration);
+
+        if(mShouldStart)
+            startSvgAnimation();
     }
+
+
 
 
     public void setSvgResource(int resource) {
