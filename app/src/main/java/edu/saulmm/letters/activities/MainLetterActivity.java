@@ -16,7 +16,7 @@ public class MainLetterActivity extends FragmentActivity {
 
     LetterAdapter mAdapter;
 
-    ViewPager mPager;
+    static ViewPager mPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +30,11 @@ public class MainLetterActivity extends FragmentActivity {
         mAdapter = new LetterAdapter(getSupportFragmentManager());
         mPager = (ViewPager)findViewById(R.id.pager);
         mPager.setAdapter(mAdapter);
-        mPager.setPageTransformer(true, new DepthPageTransformer());
+//        mPager.setPageTransformer(true, new DepthPageTransformer());
+
+    }
+
+    public static void addViewpagerListener(ViewPager.OnPageChangeListener listener) {
+        mPager.setOnPageChangeListener(listener);
     }
 }
