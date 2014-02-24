@@ -103,7 +103,9 @@ public class IntroView extends View {
             startSvgAnimation();
     }
 
-
+    public void setStrokeColor(int resourceColor) {
+        mPaint.setColor(resourceColor);
+    }
 
 
     public void setSvgResource(int resource) {

@@ -30,7 +30,8 @@ public class LetterAdapter extends FragmentStatePagerAdapter {
                 return new LetterFragment(R.raw.aa);
 
             case 1:
-                return new LetterFragment(R.raw.bb);
+                LetterFragment letterBFragment = new LetterFragment(R.raw.bb);
+                return letterBFragment;
 
             case 2:
                 return new LetterFragment(R.raw.cc);
